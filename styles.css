@@ -1,0 +1,89 @@
+
+
+
+
+
+.cabecalho-imagem{
+    width: 220px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #757575;
+}
+
+header {
+    background: #333;
+    color: #f7f7f7;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #4cb390;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#feed {
+    flex: 3;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+aside {
+    flex: 1;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.post {
+    border-bottom: 1px solid #000000;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.estudante{
+    padding: 24px 0;
+}
+
+.-titulestudanteo{
+    text-align: center;
+    padding: 20px;
+}
+
+.estudante-div{
+    text-align: center;
+    padding: 16px 0;
+}
